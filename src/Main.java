@@ -19,7 +19,7 @@ public class Main {
                 if(age < 12){
                     total += 0.5*(km*kmprice);
                 }
-                else if (age > 11 && age < 25) {
+                else if (age < 25) {
                     total += 0.9*(km*kmprice);
                 }
                 else if ( age > 64){
@@ -33,7 +33,7 @@ public class Main {
                 if(age < 12){
                     total += 0.8*(0.5*(2*km*kmprice));
                 }
-                else if (age > 11 && age < 25) {
+                else if (age < 25) {
                     total += 0.8*(0.9*(2*km*kmprice));
                 }
                 else if ( age > 64){
